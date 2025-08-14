@@ -1,0 +1,86 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Cabeçalho */
+header {
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+}
+
+
+header h1 {
+  margin: 0;
+  font-size: 5em;
+  letter-spacing: 2px;
+  background-color: #f80202;
+  padding: 20px 40px;
+  border-radius: 20px;
+  border: 2px solid #ffffff;
+  display: inline-block;
+
+
+  /* A fonte Oswald aplicada ao título */
+  font-family: "Oswald", Arial, sans-serif !important;
+  font-weight: 600; /* ajuste entre 200 e 700 se quiser */
+}
+
+
+/* Espaços de imagem */
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px 20px 0;
+}
+
+
+.espaco-imagem {
+    width: 300px;
+    height: 324px;
+    object-fit: cover;
+    border: 2px solid red;
+}
+
+
+/* Container geral do conteúdo */
+.conteudo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 80px 40px;
+    gap: 40px;
+}
+
+
+/* Texto */
+.introducao {
+    max-width: 50%;
+    font-size: 1.7em;
+    line-height: 1.6em;
+    text-align: left;
+}
+
+
+/* Imagem */
+.imagem-cbum {
+    max-width: 50%;
+    height: auto;
+    object-fit: cover;
+    border: 2px solid #333;
+}
+
+
+/* Espaço extra no final do site */
+main {
+    padding-bottom: 100px;
+}
+
+
