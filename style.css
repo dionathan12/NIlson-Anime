@@ -17,19 +17,21 @@ header {
 
 
 header h1 {
-  margin: 0;
-  font-size: 5em;
-  letter-spacing: 2px;
-  background-color: #f80202;
-  padding: 20px 40px;
-  border-radius: 20px;
-  border: 2px solid #ffffff;
-  display: inline-block;
+    margin: 0;
+    font-size: 5em;
+    letter-spacing: 2px;
+    background-color: #f80202;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    display: inline-block;
 
 
-  /* A fonte Oswald aplicada ao título */
-  font-family: "Oswald", Arial, sans-serif !important;
-  font-weight: 600; /* ajuste entre 200 e 700 se quiser */
+
+  
+    /* Fonte Bebas Neue */
+    font-family: "Bebas Neue", Arial, sans-serif !important;
+    font-weight: 400; /* peso único dessa fonte */
 }
 
 
